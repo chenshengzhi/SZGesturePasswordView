@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2427729B1D2366970025D223 /* DataSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2427729A1D2366970025D223 /* DataSourceModel.m */; };
+		2480F2411D2273560077027A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2480F2401D2273560077027A /* main.m */; };
+		2480F2441D2273560077027A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2480F2431D2273560077027A /* AppDelegate.m */; };
+		2480F2471D2273560077027A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2480F2461D2273560077027A /* ViewController.m */; };
+		2480F24A1D2273560077027A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2480F2481D2273560077027A /* Main.storyboard */; };
+		2480F24C1D2273560077027A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2480F24B1D2273560077027A /* Assets.xcassets */; };
+		2480F24F1D2273560077027A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2480F24D1D2273560077027A /* LaunchScreen.storyboard */; };
+		2480F25A1D2273560077027A /* SZGesturePasswordViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2480F2591D2273560077027A /* SZGesturePasswordViewDemoTests.m */; };
+		2480F2651D2273560077027A /* SZGesturePasswordViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2480F2641D2273560077027A /* SZGesturePasswordViewDemoUITests.m */; };
+		2480F2751D2273DB0077027A /* SZGesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2480F2741D2273DB0077027A /* SZGesturePasswordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2480F2561D2273560077027A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2480F2341D2273560077027A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2480F23B1D2273560077027A;
+			remoteInfo = SZGesturePasswordViewDemo;
+		};
+		2480F2611D2273560077027A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2480F2341D2273560077027A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2480F23B1D2273560077027A;
+			remoteInfo = SZGesturePasswordViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242772991D2366970025D223 /* DataSourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceModel.h; sourceTree = "<group>"; };
+		2427729A1D2366970025D223 /* DataSourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceModel.m; sourceTree = "<group>"; };
+		2480F23C1D2273560077027A /* SZGesturePasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZGesturePasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2480F2401D2273560077027A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2480F2421D2273560077027A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2480F2431D2273560077027A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2480F2451D2273560077027A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2480F2461D2273560077027A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2480F2491D2273560077027A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2480F24B1D2273560077027A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2480F24E1D2273560077027A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2480F2501D2273560077027A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2480F2551D2273560077027A /* SZGesturePasswordView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZGesturePasswordView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2480F2591D2273560077027A /* SZGesturePasswordViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGesturePasswordViewDemoTests.m; sourceTree = "<group>"; };
+		2480F25B1D2273560077027A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2480F2601D2273560077027A /* SZGesturePasswordView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZGesturePasswordView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2480F2641D2273560077027A /* SZGesturePasswordViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGesturePasswordViewDemoUITests.m; sourceTree = "<group>"; };
+		2480F2661D2273560077027A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2480F2731D2273DB0077027A /* SZGesturePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGesturePasswordView.h; sourceTree = "<group>"; };
+		2480F2741D2273DB0077027A /* SZGesturePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGesturePasswordView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2480F2391D2273560077027A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2480F2521D2273560077027A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2480F25D1D2273560077027A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2480F2331D2273560077027A = {
+			isa = PBXGroup;
+			children = (
+				2480F2721D2273750077027A /* SZGesturePasswordView */,
+				2480F23E1D2273560077027A /* SZGesturePasswordViewDemo */,
+				2480F2581D2273560077027A /* SZGesturePasswordViewDemoTests */,
+				2480F2631D2273560077027A /* SZGesturePasswordViewDemoUITests */,
+				2480F23D1D2273560077027A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2480F23D1D2273560077027A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2480F23C1D2273560077027A /* SZGesturePasswordView.app */,
+				2480F2551D2273560077027A /* SZGesturePasswordView.xctest */,
+				2480F2601D2273560077027A /* SZGesturePasswordView.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2480F23E1D2273560077027A /* SZGesturePasswordViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2480F2421D2273560077027A /* AppDelegate.h */,
+				2480F2431D2273560077027A /* AppDelegate.m */,
+				2480F2451D2273560077027A /* ViewController.h */,
+				2480F2461D2273560077027A /* ViewController.m */,
+				242772991D2366970025D223 /* DataSourceModel.h */,
+				2427729A1D2366970025D223 /* DataSourceModel.m */,
+				2480F2481D2273560077027A /* Main.storyboard */,
+				2480F24B1D2273560077027A /* Assets.xcassets */,
+				2480F24D1D2273560077027A /* LaunchScreen.storyboard */,
+				2480F2501D2273560077027A /* Info.plist */,
+				2480F23F1D2273560077027A /* Supporting Files */,
+			);
+			path = SZGesturePasswordViewDemo;
+			sourceTree = "<group>";
+		};
+		2480F23F1D2273560077027A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2480F2401D2273560077027A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2480F2581D2273560077027A /* SZGesturePasswordViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2480F2591D2273560077027A /* SZGesturePasswordViewDemoTests.m */,
+				2480F25B1D2273560077027A /* Info.plist */,
+			);
+			path = SZGesturePasswordViewDemoTests;
+			sourceTree = "<group>";
+		};
+		2480F2631D2273560077027A /* SZGesturePasswordViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2480F2641D2273560077027A /* SZGesturePasswordViewDemoUITests.m */,
+				2480F2661D2273560077027A /* Info.plist */,
+			);
+			path = SZGesturePasswordViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		2480F2721D2273750077027A /* SZGesturePasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				2480F2731D2273DB0077027A /* SZGesturePasswordView.h */,
+				2480F2741D2273DB0077027A /* SZGesturePasswordView.m */,
+			);
+			name = SZGesturePasswordView;
+			path = ../SZGesturePasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2480F23B1D2273560077027A /* SZGesturePasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2480F2691D2273560077027A /* Build configuration list for PBXNativeTarget "SZGesturePasswordView" */;
+			buildPhases = (
+				2480F2381D2273560077027A /* Sources */,
+				2480F2391D2273560077027A /* Frameworks */,
+				2480F23A1D2273560077027A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZGesturePasswordView;
+			productName = SZGesturePasswordViewDemo;
+			productReference = 2480F23C1D2273560077027A /* SZGesturePasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2480F2541D2273560077027A /* SZGesturePasswordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2480F26C1D2273560077027A /* Build configuration list for PBXNativeTarget "SZGesturePasswordViewTests" */;
+			buildPhases = (
+				2480F2511D2273560077027A /* Sources */,
+				2480F2521D2273560077027A /* Frameworks */,
+				2480F2531D2273560077027A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2480F2571D2273560077027A /* PBXTargetDependency */,
+			);
+			name = SZGesturePasswordViewTests;
+			productName = SZGesturePasswordViewDemoTests;
+			productReference = 2480F2551D2273560077027A /* SZGesturePasswordView.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2480F25F1D2273560077027A /* SZGesturePasswordViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2480F26F1D2273560077027A /* Build configuration list for PBXNativeTarget "SZGesturePasswordViewUITests" */;
+			buildPhases = (
+				2480F25C1D2273560077027A /* Sources */,
+				2480F25D1D2273560077027A /* Frameworks */,
+				2480F25E1D2273560077027A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2480F2621D2273560077027A /* PBXTargetDependency */,
+			);
+			name = SZGesturePasswordViewUITests;
+			productName = SZGesturePasswordViewDemoUITests;
+			productReference = 2480F2601D2273560077027A /* SZGesturePasswordView.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2480F2341D2273560077027A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "陈圣治";
+				TargetAttributes = {
+					2480F23B1D2273560077027A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2480F2541D2273560077027A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2480F23B1D2273560077027A;
+					};
+					2480F25F1D2273560077027A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2480F23B1D2273560077027A;
+					};
+				};
+			};
+			buildConfigurationList = 2480F2371D2273560077027A /* Build configuration list for PBXProject "SZGesturePasswordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2480F2331D2273560077027A;
+			productRefGroup = 2480F23D1D2273560077027A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2480F23B1D2273560077027A /* SZGesturePasswordView */,
+				2480F2541D2273560077027A /* SZGesturePasswordViewTests */,
+				2480F25F1D2273560077027A /* SZGesturePasswordViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2480F23A1D2273560077027A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2480F24F1D2273560077027A /* LaunchScreen.storyboard in Resources */,
+				2480F24C1D2273560077027A /* Assets.xcassets in Resources */,
+				2480F24A1D2273560077027A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2480F2531D2273560077027A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2480F25E1D2273560077027A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2480F2381D2273560077027A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2480F2751D2273DB0077027A /* SZGesturePasswordView.m in Sources */,
+				2480F2471D2273560077027A /* ViewController.m in Sources */,
+				2480F2441D2273560077027A /* AppDelegate.m in Sources */,
+				2427729B1D2366970025D223 /* DataSourceModel.m in Sources */,
+				2480F2411D2273560077027A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2480F2511D2273560077027A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2480F25A1D2273560077027A /* SZGesturePasswordViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2480F25C1D2273560077027A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2480F2651D2273560077027A /* SZGesturePasswordViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2480F2571D2273560077027A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2480F23B1D2273560077027A /* SZGesturePasswordView */;
+			targetProxy = 2480F2561D2273560077027A /* PBXContainerItemProxy */;
+		};
+		2480F2621D2273560077027A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2480F23B1D2273560077027A /* SZGesturePasswordView */;
+			targetProxy = 2480F2611D2273560077027A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2480F2481D2273560077027A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2480F2491D2273560077027A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2480F24D1D2273560077027A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2480F24E1D2273560077027A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2480F2671D2273560077027A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2480F2681D2273560077027A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2480F26A1D2273560077027A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SZGesturePasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csz.SZGesturePasswordViewDemo;
+				PRODUCT_NAME = SZGesturePasswordView;
+			};
+			name = Debug;
+		};
+		2480F26B1D2273560077027A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SZGesturePasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csz.SZGesturePasswordViewDemo;
+				PRODUCT_NAME = SZGesturePasswordView;
+			};
+			name = Release;
+		};
+		2480F26D1D2273560077027A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SZGesturePasswordViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csz.SZGesturePasswordViewDemoTests;
+				PRODUCT_NAME = SZGesturePasswordView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZGesturePasswordView.app/SZGesturePasswordView";
+			};
+			name = Debug;
+		};
+		2480F26E1D2273560077027A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SZGesturePasswordViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csz.SZGesturePasswordViewDemoTests;
+				PRODUCT_NAME = SZGesturePasswordView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZGesturePasswordView.app/SZGesturePasswordView";
+			};
+			name = Release;
+		};
+		2480F2701D2273560077027A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SZGesturePasswordViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csz.SZGesturePasswordViewDemoUITests;
+				PRODUCT_NAME = SZGesturePasswordView;
+				TEST_TARGET_NAME = SZGesturePasswordViewDemo;
+			};
+			name = Debug;
+		};
+		2480F2711D2273560077027A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SZGesturePasswordViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csz.SZGesturePasswordViewDemoUITests;
+				PRODUCT_NAME = SZGesturePasswordView;
+				TEST_TARGET_NAME = SZGesturePasswordViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2480F2371D2273560077027A /* Build configuration list for PBXProject "SZGesturePasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2480F2671D2273560077027A /* Debug */,
+				2480F2681D2273560077027A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2480F2691D2273560077027A /* Build configuration list for PBXNativeTarget "SZGesturePasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2480F26A1D2273560077027A /* Debug */,
+				2480F26B1D2273560077027A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2480F26C1D2273560077027A /* Build configuration list for PBXNativeTarget "SZGesturePasswordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2480F26D1D2273560077027A /* Debug */,
+				2480F26E1D2273560077027A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2480F26F1D2273560077027A /* Build configuration list for PBXNativeTarget "SZGesturePasswordViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2480F2701D2273560077027A /* Debug */,
+				2480F2711D2273560077027A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2480F2341D2273560077027A /* Project object */;
+}
